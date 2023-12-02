@@ -1,21 +1,3 @@
-//Direcionamento de links
-const fgPasswordPage = '/pages/fgPassword.html';
-const cadastroPage = '/pages/cadastroPage.html';
-
-//Redirecionamento para página de recuperação de senha
-const fgPasswordBtn = document.getElementById('fgPassword');
-
-fgPasswordBtn.addEventListener('click', () =>{
-  window.location.href = fgPasswordPage;
-})
-
-//Redirecionamento para a página de cadastro de usuário 
-const signUpBtn = document.getElementById('signUpBtn')
-
-signUpBtn.addEventListener('click', () => {
-  window.location.href = cadastroPage;
-})
-
 //Animações
 const registerBtn = document.getElementById('register');
 const container = document.getElementById('container');
@@ -53,7 +35,7 @@ async function login(){
   if(userIsAuthenticated()){
     localStorage.setItem('user', user.login)
     resetForm()
-    window.location.href = 'pages/fgPassword.html'
+    window.location.href = '/App/app.html'
   } else{
     localStorage.removeItem('user')
     resetForm()
