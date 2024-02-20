@@ -14,3 +14,5 @@ Turma: CC2MA
 -> Cada usuário terá o próprio perfil, no qual possuirá nome, foto, descrição e disciplinas de maior e menor dificuldades. Dessa forma a aplicação tem o objetivo de realizar uma filtragem, interligando os alunos para que estes se ajudem. 
 
 -> Exemplo prático: Giovanna preenche seu perfil com dificuldade em Cálculo, e, João, o dele com facilidade nessa matéria. O sistema irá enviar o perfil de João para Giovanna, indicando que eles tiveram uma conexão e que podem iniciar contato. 
+
+// Responsividade em manutenção!
