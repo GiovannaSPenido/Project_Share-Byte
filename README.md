@@ -15,4 +15,4 @@ Turma: CC2MA
 
 -> Exemplo prático: Giovanna preenche seu perfil com dificuldade em Cálculo, e, João, o dele com facilidade nessa matéria. O sistema irá enviar o perfil de João para Giovanna, indicando que eles tiveram uma conexão e que podem iniciar contato. 
 
-// Responsividade em manutenção!
+// Responsividade e outras funcionalidades em manutenção!
